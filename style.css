@@ -1,0 +1,57 @@
+.container {
+    height: 95vh;
+    width:99vw;
+    border: 2px solid blue;
+    position: relative;
+}
+h1 {
+    text-align: center;
+    position: relative;
+    top: 40vh;
+    color: red;
+}
+.square {
+    height:100px;
+    width:100px;
+    border: 2px solid red;
+    position: absolute;
+}
+.circle {
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    border: 2px solid green;
+    position: absolute;
+}
+.one {
+    top: 0;
+}
+
+.two {
+    top: 0;
+    right: 0;
+}
+.three {
+    bottom: 0;
+    right: 0;
+}
+.four{
+    bottom: 0;
+    left: 0;
+}
+.five{
+    top:0;
+    left:45vw
+}
+.six{
+    left:0;
+    bottom:40vh
+}
+.seven{
+    right:0;
+    top:40vh
+}
+.eight{
+    bottom:0;
+    left: 45vw;
+}
